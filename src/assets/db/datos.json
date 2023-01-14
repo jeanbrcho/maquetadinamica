@@ -1,0 +1,78 @@
+{
+    "nombre": "Jean Bracho",
+    "titulo": "Full Stack Developer Jr.",
+    "resumen": "Amante de la tecnología, aprendiendo desarrollo web.",
+
+    "experiencia": [
+        {
+            "logo": "../img/gridologo.png",
+            "institucion": "Grido",
+            "puesto": "Dependiente de mostrador",
+            "duracion": "Noviembre 2021 - Enero 2022"
+        }
+    ],
+
+    "educacion": [
+        {
+            "id": 1,
+            "logo": "../img/arg-programa.png",
+            "institucion": "Argentina Programa",
+            "titulo": "Full Stack Developer Jr. #YoProgramo",
+            "detalles": "",
+            "duracion": "Junio 2022 - Enero 2023"
+        },
+        {
+            "id": 2,
+            "logo": "../img/telefonicalogo.png",
+            "institucion": "Fundación Telefónica Movistar",
+            "titulo": "Introducción a Python",
+            "detalles": "INTRODUCCIÓN A LA PROGRAMACIÓN: 40 horas de formación. Técnologías informáticas Metodologías de Programación Arquitectura de software. INTRODUCCIÓN A PYTHON: 100 horas de formación. Instalación y uso del lenguaje. Jupyter Notebook Sintaxis y estructura del lenguaje. Programación funcional. PYTHON orientado a objetos: 60 horas de formación. Conceptos de la P.O.O. Clases, objetos y relaciones. Desarrollo práctico orientado a objetos.",
+            "duracion": "Junio 2022 - Enero 2023"
+        },
+        {
+            "id": 3,
+            "logo": "../img/arg-programa.png",
+            "institucion": "Argentina Programa",
+            "titulo": "Introducción a la Programación #SéProgramar",
+            "detalles": "",
+            "duracion": "Marzo 2022 - 2022"
+        },
+        {
+            "id": 4,
+            "logo": "../img/hotellog.png",
+            "institucion": "Colegio Universitario 'Hotel Escuela' de los Andes Venezolanos",
+            "titulo": "Técnico Superior Universitario en Turismo",
+            "detalles": "",
+            "duracion": "2015 - 2017"
+        }
+    ],
+
+    "Hard & Soft Skills": [
+        {
+            "habilidad": "Programación Web",
+            "porcentaje": 63
+        },
+        {
+            "habilidad": "Manejo de Python",
+            "porcentaje": 40
+        },
+        {
+            "habilidad": "Resolución de Problemas",
+            "porcentaje": 87
+        },
+        {
+            "habilidad": "Inglés",
+            "porcentaje": 55
+        }
+    ],
+
+    "proyectos": [
+        {
+            "logo": "../img/capturapag.png",
+            "proyecto": "Proyecto Integrador Portfolio Web Full Stack",
+            "descripcion": "Objetivo: Desarrollar una aplicación web full stack, que mostrará: tus datos personales, estudios cursados, experiencia laboral, conocimiento de las tecnologías y lo que desees agregar. Es decir, ¡crear tu propio portfolio web! Esta aplicación deberá ser de arquitectura distribuida y contener un diseño de interfaz de usuario (front end) que muestre la información, una base de datos que almacene los datos antes mencionados y debe contar con las APIs necesarias para proveer a través de internet la información (back end). La idea es que, además de servirte para aplicar lo aprendido y que te evaluemos, puedas publicar el portfolio web y usarlo como carta de presentación en el mercado laboral.",
+            "fecha": "Enero 2023"
+        }
+    ]
+        
+}
