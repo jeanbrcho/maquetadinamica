@@ -1,7 +1,11 @@
 {
-    "nombre": "Jean Bracho",
-    "titulo": "Full Stack Developer Jr.",
-    "resumen": "Amante de la tecnología, aprendiendo desarrollo web.",
+    "acercade": [
+        {
+    "nombre": "Jean Bracho Sandoval",
+    "curso": "Full Stack Developer Jr.",
+    "resumen": "Amante de la tecnología, aprendiendo desarrollo web."
+        }
+    ],
 
     "experiencia": [
         {

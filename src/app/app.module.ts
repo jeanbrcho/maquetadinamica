@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+
 import { AcercadeModule } from './@components/acercade/acercade.module';
 import { ContactoModule } from './@components/contacto/contacto.module';
 import { EditaracercadeModule } from './@components/editaracercade/editaracercade.module';
@@ -27,6 +29,7 @@ import { AppComponent } from './app.component';
     HabilidadesModule,
     NavbarModule,
     ProyectosModule,
+    HttpClientModule,
 
   ],
   providers: [],
