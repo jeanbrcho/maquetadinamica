@@ -1,0 +1,55 @@
+<!-- Sección navbar -->
+<section id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <a href="https://argentinaprograma.inti.gob.ar/" target="_blank"><img class="logoag" src="assets/img/arg-programa.png"></a>
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <ul class="list-group list-group-horizontal">
+              <a href="https://www.linkedin.com/in/jeanbracho/" target="_blank"><li class="list-group-item"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/jeanbrcho" target="_blank"><li class="list-group-item"><i class="fa-brands fa-square-github"></i></a>
+              <a href="http://facebook.com" target="_blank"><li class="list-group-item"><i class="fa-brands fa-square-facebook"></i></a>
+            </ul>
+            <!-- Button trigger modal -->
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#loginModal">
+          Iniciar Sesión
+          </button>
+          <button type="button" class="btn btn-danger">Salir <i class="fa-sharp fa-solid fa-person-walking-dashed-line-arrow-right"></i></button>
+          </div>
+        </div>
+      </nav>
+</section>
+
+<!-- Modal login -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModalLabel">Iniciar Sesión</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Usuario</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+
+
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+      </div>
+    </form>
+  </div>
+  </div>
+  </div>
+</div>
